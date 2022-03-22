@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://kit.fontawesome.com/55363426d2.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Job Challenge</title>
+    </head>
+<body>
+    <header>
+        <div class="entete">
+            <h1>Patrick Sébastien</h1>
+            <ul>
+                <li><a href="#Accueil">Accueil</a></li>
+                <li><a href="#A propos">A propos</a></li>
+                <li><a href="#Projets">Pojets</a></li>
+                <li><a href="#Contacts">Contact</a></li>
+            </ul>             
+        </div>
+        <div class="profil">
+            <img src="images/photo_profil.png" alt="photo de profil">
+        </div>    
+    </header>
+    <main>
+        <div id="slider">
+            <figure>
+                <img src="images/paysages/boreal1.jpeg" alt="borel">
+                <img src="images/paysages/desert1.jpeg" alt="desert">
+                <img src="images/paysages/fjord1.jpeg" alt="fjord">
+                <img src="images/paysages/plage1.jpeg" alt="plage">
+                <img src="images/paysages/provence1.jpeg" alt="provence">
+            </figure>
+        </div>
+        <section class="partie2">
+            <h1 class="tracking-in-expand-fwd">Projet</h1>  
+            <!-- la classe du 'h1'tracking renvoie à l'animation du titre 'projet' -->
+            <div class="projets">
+                <article>
+                    <img class="item" src="images/projets/photo good/projet_boreal1.jpeg" alt="Projet_1">
+                </article>
+                <article>
+                    <img class="item" src="images/projets/photo good/projet_cabane1.jpeg" alt="Projet_2">
+                </article>
+                <article>
+                    <img class="item" src="images/projets/photo good/projet_desert1.jpeg" alt="Projet_3">
+                </article>
+                <article>
+                    <img class="item" src="images/projets/photo good/projet_fjord1.jpeg" alt="Projet_4">
+                </article>
+                <article>
+                    <img class="item" src="images/projets/photo good/projet_plage1.jpeg" alt="Projet_5">
+                </article>
+                <article>
+                    <img class="item" src="images/projets/photo good/projet_provence1.jpeg" alt="Projet_6">
+                </article>
+            </div>
+        </section>
+        <section>
+            
+
+            <form method="post" action="traitement.php">
+                <p><label for="pseudo">Qui êtes-vous?</label></p><br />
+                <p><input type="text" name="pseudo" id="pseudo" size="30" maxlength="10" placeholder="Michael"/></p>
+                <p><input type="text" name="pseudo" id="pseudo" size="30" maxlength="10" placeholder="Jackson"/></p>
+                <p><label for="contacter">J'explique mon projet.</label><br />
+                    <textarea name= "contacter" id="contacter" rows="5" cols="10"></textarea></p>
+                    <p><input type="submit" value="C'est parti!"></p>
+                
+                </form>
+
+
+                <!-- <h2>Restons en contact</h2> FORMULAIRE
+                <p type="Nom:"><input placeholder="Write your name here.."></input></p>
+                <p type="Email:"><input placeholder="Let us know how to contact you back.."></input></p>
+                <p type="Dites-nous tout:"><input placeholder="What would you like to tell us.."></input></p>
+                <button>C'est parti !</button>
+                <div>
+                <span class="fa fa-phone"></span>001 1023 567
+                <span class="fa fa-envelope-o"></span> contact@company.com
+                </div> -->
+            
+        </section>
+        <footer>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-twitter"></i>
+        </footer>
+        </div>
+    </main>
+</body>
+</html>
