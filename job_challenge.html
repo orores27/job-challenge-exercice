@@ -15,7 +15,7 @@
 <body>
     <header>
         <div class="entete">
-            <h1>Patrick Sébastien</h1>
+            <h1>Marc Legendre</h1>
             <ul>
                 <li><a href="#Accueil">Accueil</a></li>
                 <li><a href="#A propos">A propos</a></li>
@@ -24,7 +24,7 @@
             </ul>             
         </div>
         <div class="profil">
-            <img src="images/photo_profil.png" alt="photo de profil">
+            <img src="images/projets/photo_profil.jpg" alt="photo de profil">
         </div>    
     </header>
     <main>
@@ -65,14 +65,13 @@
             
 
             <form method="post" action="traitement.php">
-                <p><label for="pseudo">Qui êtes-vous?</label></p><br />
-                <p><input type="text" name="pseudo" id="pseudo" size="30" maxlength="10" placeholder="Michael"/></p>
-                <p><input type="text" name="pseudo" id="pseudo" size="30" maxlength="10" placeholder="Jackson"/></p>
-                <p><label for="contacter">J'explique mon projet.</label><br />
-                    <textarea name= "contacter" id="contacter" rows="5" cols="10"></textarea></p>
-                    <p><input type="submit" value="C'est parti!"></p>
-                
-                </form>
+                <p class="question"><label for="pseudo">Qui êtes-vous?</label></p>
+                <p class="prenom"><input type="text" name="pseudo" id="pseudo" placeholder="Michael"/></p>
+                <p class="nom"><input type="text" name="pseudo" id="pseudo"  placeholder="Jackson"/></p>
+                <p class="explication"><label for="contacter">J'explique mon projet:</label></p>
+                <textarea name= "contacter" id="contacter" rows="5" cols="10"></textarea>
+                <p class="bouton"><input type="submit" value="C'est parti!"></p>
+            </form>
 
 
                 <!-- <h2>Restons en contact</h2> FORMULAIRE
@@ -87,9 +86,11 @@
             
         </section>
         <footer>
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-twitter"></i>
+            <div class="icones">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </div>  
         </footer>
         </div>
     </main>

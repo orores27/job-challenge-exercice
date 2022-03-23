@@ -12,7 +12,7 @@ main{
     margin:auto;
 }
 .entete{
-    background-color: rgb(162, 238, 187);
+    background-color: rgb(28, 66, 28);
     display: flex;
     justify-content:space-between;
     padding: 0 2%;
@@ -24,7 +24,6 @@ main{
 .entete ul{
 
     display: flex;
-    
 }
 .entete ul li  {
     list-style: none;
@@ -32,16 +31,20 @@ main{
     width: 100px;
     text-align: center;
 }
-
 .entete ul li a {
     text-decoration: none;
+    color:rgb(242, 247, 242);
 }
 h1{
     font-size: medium;
+    color: rgb(242, 247, 242);
 }
 .profil img{
     border-radius: 100%;
-    border: 2px black solid;
+    object-fit: cover;
+    border: 3px rgb(28, 66, 28) solid;
+    width: 200px;
+    height: 200px;
 }
 .profil{
     display: flex;
@@ -155,14 +158,76 @@ letter-spacing: -0.5em;
 
 /**début du formulaire**/
 form{
-    background-color: red;
+    /**background-color: red;**/
+    font-family: 'Open Sans', sans-serif;;
     display: flex;
-    justify-content: center;
-    vertical-align: center;
+    flex-direction: column;
+    align-items: center;
+    /*align-content: center;*/
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.question{
+    padding: 3%;
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(28, 66, 28);
+}
+.prenom{
+    margin-bottom: 3%;
+}
+.nom{
+    margin-bottom: 3%;
+}
+.explication{
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(28, 66, 28);
+    margin-bottom: 3%;
+    
+}
+.texte{
+    /**margin-bottom: 3%;
+    justify-content: center;**/
 }
 textarea{
-    width:80%;
-    height: 80%; 
+    margin-bottom: 3%;
+    justify-content: center;
+    width: 50%;
+    height: 80%;
 }
+.bouton{
+    margin-bottom: 3%;
+    justify-content: center;
+    margin-bottom: 3%;
+    font-weight: bold;
+    width: 10%;
+    height: 10%;
+}
+footer{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 3%;
+}
+.icones{
+    /**background-color: greenyellow;**/
+    display: flex;
+    
+    border: 2px rgb(28, 66, 28) solid;
+    padding: 1em;
+    
+} 
+i{
+    background-color: aliceblue;
+    padding: auto;
+    
+}
+.fa-brands{
+    color: rgb(28, 66, 28);
+    width: 1.5rem;
+}
+
 
 
