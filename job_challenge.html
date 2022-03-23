@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <script src="https://kit.fontawesome.com/55363426d2.js" crossorigin="anonymous"></script>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="./css/style.css">
-        <title>Job Challenge</title>
-    </head>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/55363426d2.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Job Challenge</title>
+</head>
+
 <body>
     <header>
         <div class="entete">
@@ -21,11 +25,11 @@
                 <li><a href="#A propos">A propos</a></li>
                 <li><a href="#Projets">Pojets</a></li>
                 <li><a href="#Contacts">Contact</a></li>
-            </ul>             
+            </ul>
         </div>
         <div class="profil">
             <img src="images/projets/photo_profil.jpg" alt="photo de profil">
-        </div>    
+        </div>
     </header>
     <main>
         <div id="slider">
@@ -38,7 +42,7 @@
             </figure>
         </div>
         <section class="partie2">
-            <h1 class="tracking-in-expand-fwd">Projet</h1>  
+            <h1 class="tracking-in-expand-fwd">Projet</h1>
             <!-- la classe du 'h1'tracking renvoie à l'animation du titre 'projet' -->
             <div class="projets">
                 <article>
@@ -62,19 +66,16 @@
             </div>
         </section>
         <section>
-            
-
             <form method="post" action="traitement.php">
-                <p class="question"><label for="pseudo">Qui êtes-vous?</label></p>
-                <p class="prenom"><input type="text" name="pseudo" id="pseudo" placeholder="Michael"/></p>
-                <p class="nom"><input type="text" name="pseudo" id="pseudo"  placeholder="Jackson"/></p>
-                <p class="explication"><label for="contacter">J'explique mon projet:</label></p>
-                <textarea name= "contacter" id="contacter" rows="5" cols="10"></textarea>
-                <p class="bouton"><input type="submit" value="C'est parti!"></p>
+                <label class="question" for="prenom">Qui êtes-vous?</label>
+                <label class="question" for="nom">Qui êtes-vous?</label>
+                <input class="prenom" type="text" name="prenom" id="prenom" placeholder="Michael" />
+                <input class="nom" type="text" name="nom" id="nom" placeholder="Jackson" />
+                <label class="explication" for="contacter">J'explique mon projet:</label>
+                <textarea name="contacter" id="contacter" rows="5" cols="10"></textarea>
+                <input class="bouton" type="submit" value="C'est parti!">
             </form>
-
-
-                <!-- <h2>Restons en contact</h2> FORMULAIRE
+            <!-- <h2>Restons en contact</h2> FORMULAIRE
                 <p type="Nom:"><input placeholder="Write your name here.."></input></p>
                 <p type="Email:"><input placeholder="Let us know how to contact you back.."></input></p>
                 <p type="Dites-nous tout:"><input placeholder="What would you like to tell us.."></input></p>
@@ -83,14 +84,13 @@
                 <span class="fa fa-phone"></span>001 1023 567
                 <span class="fa fa-envelope-o"></span> contact@company.com
                 </div> -->
-            
         </section>
         <footer>
             <div class="icones">
                 <i class="fa-brands fa-facebook"></i>
                 <i class="fa-brands fa-twitter"></i>
                 <i class="fa-brands fa-twitter"></i>
-            </div>  
+            </div>
         </footer>
         </div>
     </main>

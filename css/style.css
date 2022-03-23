@@ -155,7 +155,6 @@ letter-spacing: -0.5em;
     height: auto;
     /**background-color: blue;**/
 }
-
 /**début du formulaire**/
 form{
     /**background-color: red;**/
@@ -183,8 +182,7 @@ form{
     font-size: larger;
     font-weight: bold;
     color: rgb(28, 66, 28);
-    margin-bottom: 3%;
-    
+    margin-bottom: 3%; 
 }
 .texte{
     /**margin-bottom: 3%;
@@ -216,13 +214,11 @@ footer{
     display: flex;
     
     border: 2px rgb(28, 66, 28) solid;
-    padding: 1em;
-    
+    padding: 1em; 
 } 
 i{
     background-color: aliceblue;
-    padding: auto;
-    
+    /* padding: auto;    */
 }
 .fa-brands{
     color: rgb(28, 66, 28);
