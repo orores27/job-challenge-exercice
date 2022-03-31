@@ -1,9 +1,11 @@
+/* I have to never forget this first block, it is essential to setting my DOM */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
+
 body{
     margin-left: 3% ;
     margin-right: 3%;
@@ -26,11 +28,13 @@ main{
     display: flex;
 }
 .entete ul li  {
-    list-style: none;
+    /* I write non to remove the bulleted(puces) */
+    list-style: none; 
     margin: 5px;
     width: 100px;
     text-align: center;
 }
+/* I have to understand how it divides into/se divise/ my 'entete' */
 .entete ul li a {
     text-decoration: none;
     color:rgb(242, 247, 242);
@@ -50,6 +54,7 @@ h1{
     display: flex;
     justify-content: center;
 }
+/*About the slider, I mustn't forget his functioning, it's just a long band with pictures and I rule scroll time.*/
 #slider{
     width: 100%;
     margin:auto;
@@ -83,9 +88,11 @@ h1{
     animation: 15s slidy infinite;
 }
 .partie2 h1{
-    font-size: 50px;
+    /* font-size: 50px; */
+    color:rgb(28, 66, 28)
 }
 .tracking-in-expand-fwd {
+    font-size: 50px;
 	-webkit-animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 	        animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
@@ -101,7 +108,7 @@ h1{
  * animation tracking-in-expand-fwd
  * ----------------------------------------
  */
- @-webkit-keyframes tracking-in-expand-fwd {
+@-webkit-keyframes tracking-in-expand-fwd {
     0% {
     letter-spacing: -0.5em;
     -webkit-transform: translateZ(-700px);
