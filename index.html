@@ -23,16 +23,17 @@
     <header>
         <div class="entete">
             <h1>Marc Legendre</h1>
-            <nav id="cadrelangue" >
+            <!-- <nav id="cadrelangue" >
                 
-                <a class="langue" href="./index copy.html"><img src="./images/icones/drapeau_GB.png" alt="drapeau grande bretagne"></a>
+                 <a class="langue" href="./index copy.html"><img src="./images/icones/drapeau_GB.png" alt="drapeau grande bretagne"></a> --> -->
                 <!--<img class="langue" src="./images/icones/drapeau_fr.png" alt="drapeau français">
-                <img class="langue" src="./images/icones/drapeau_GB.png" alt="drapeau grande bretagne"> -->
-            </nav>
+                <img class="langue" src="./images/icones/drapeau_GB.png" alt="drapeau grande bretagne"> 
+            </nav> -->
             
             <!--This is my bulleted list on the top of my page -->
             <nav>
             <ul>
+                <li></li><a class="langue" href="./index copy.html"><img src="./images/icones/drapeau_GB.png" alt="drapeau grande bretagne"></a> </li>
                 <li><a href="#Accueil">Accueil</a></li>
                 <li><a href="#A propos">A propos</a></li>
                 <li><a href="#Projets">Projets</a></li> <!--I forget the 'R' of projets word-->
@@ -40,6 +41,19 @@
             </ul>
             </nav>
         </div>
+        <div class="topnav">
+            <a href="#home" class="active">Menu</a>
+            <div id="myLinks">
+                <a class="langue" href="./indexcopy.html"><img id="drapeau" src="./images/icones/drapeau_GB.png" alt="drapeau grande bretagne"></a>
+                <a href="#news">Accueil</a>
+                <a href="#apropos">A propos</a>
+                <a href="#about">Projets</a>
+                <a href="#contacts">Contacts</a>
+            </div>
+            <a id= "icon" class="icon" >
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
         <!--This div contains my profile picture-->
         <div class="profil">
             <img src="images/projets/photo_profil.jpg" alt="photo de profil">
@@ -61,8 +75,14 @@
             <!-- la classe du 'h1'tracking renvoie à l'animation du titre 'projet' -->
             <!-- This is my div whitch contains my 6 articles. I have to add a text for each of them -->
             <div class="projets">
+                
                 <article>
-                    <img class="item" src="images/projets/photo good/projet_boreal1.jpeg" alt="Projet_1">
+                    <div class="example">
+                        <img class="item" src="images/projets/photo good/projet_boreal1.jpeg" alt="Projet_1">
+                        <div class="content">
+                            <div class="text">truc</div>
+                        </div>
+                    </div>
                 </article>
                 <article>
                     <img class="item" src="images/projets/photo good/projet_cabane1.jpeg" alt="Projet_2">
@@ -112,5 +132,6 @@
         </footer>
         </div>
     </main>
+    <script src="index.js"></script>
 </body>
 </html>
